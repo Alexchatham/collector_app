@@ -15,7 +15,7 @@ describe "Static pages" do
     click_link "Home"
     click_link "Sign up now!"
     page.should # fill in
-    click_link "sample app"
+    click_link "Personal PO"
     page.should # fill in
   end
   
